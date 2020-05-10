@@ -7,7 +7,7 @@ import { Component, Input, Output, ViewChild, OnInit, EventEmitter, ElementRef }
 })
 export class IncrementadorComponent implements OnInit {
 
-  @ViewChild('txtProgress') txtProgress: ElementRef;
+  @ViewChild('txtProgress', { static: true }) txtProgress: ElementRef;
 
   // tslint:disable-next-line:no-input-rename
   @Input('nombre') leyenda: string = 'Leyenda';
