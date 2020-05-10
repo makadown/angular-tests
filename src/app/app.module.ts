@@ -13,6 +13,7 @@ import { HospitalComponent } from './intermedio2/hospital/hospital.component';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './avanzado/navbar/navbar.component';
 import { RouterMedicoComponent } from './avanzado/router-medico/router-medico.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { RouterMedicoComponent } from './avanzado/router-medico/router-medico.co
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     RouterModule.forRoot(RUTAS)
   ],
   providers: [MedicoService],
