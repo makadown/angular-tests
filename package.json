@@ -22,9 +22,10 @@
     "@angular/platform-browser-dynamic": "^9.1.6",
     "@angular/router": "^9.1.6",
     "core-js": "^2.4.1",
+    "minimist": "^1.2.5",
     "rxjs": "^6.5.5",
-    "zone.js": "^0.10.3",
-    "rxjs-compat": "^6.0.0-rc.0"
+    "rxjs-compat": "^6.0.0-rc.0",
+    "zone.js": "^0.10.3"
   },
   "devDependencies": {
     "@angular/cli": "^9.1.5",
